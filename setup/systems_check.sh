@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 sudo apt-get update #the -y means automatically say yes, we want to skip that here for safety purposes
-sudo apt-get -y upgrade
+# sudo apt-get -y upgrade # dist-upgrade will already upgrade all relevant packges, just more intelligently
 sudo apt-get -y dist-upgrade
 # sudo apt-get -y install make python-dev python-setuptools libblas-dev gfortran g++ python-pip python-numpy python-scipy liblapack-dev
 # sudo pip install ipython nose
