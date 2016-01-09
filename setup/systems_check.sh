@@ -27,6 +27,4 @@ device = gpu0
 fastmath = True
 EOF
 
-cd ~
-
 python libraries_check.py
